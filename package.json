@@ -2,6 +2,7 @@
   "name": "chat_front-end",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://m1k1ta.github.io/chat_front-end",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
