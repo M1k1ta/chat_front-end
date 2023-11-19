@@ -1,0 +1,44 @@
+.message-form {
+  width: 100vw;
+  padding: 20px 80px;
+  border-top: 2px solid #fff;
+
+  &__box {
+    position: relative;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 12px 90px 12px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+
+    background-color: #dbeeff;
+
+    border: 2px solid #fff;
+    outline-color: #1a90ff;
+  }
+
+  &__button {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+
+    border: none;
+    background-color: #ddd;
+    padding: 8px 16px;
+    font-size: 16px;
+    transition: background-color 300ms;
+
+    &:hover {
+      background-color: #1a90ff;
+      color: #fff;
+    }
+
+    &:disabled {
+      background-color: #ddd;
+      color: #aaa;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.message {
+  overflow-y: auto;
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #1a90ff;
+  }
+
+  &__list {
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+
+    height: calc(100vh - 90px);
+    padding: 20px 30px;
+    list-style: none;
+  }
+
+  &__item {
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 60px;
+    padding: 20px;
+    border-radius: 16px 8px 8px 0;
+
+    background-color: #1a90ff;
+    color: #fff;
+  }
+}
